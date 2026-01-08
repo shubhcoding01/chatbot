@@ -38,7 +38,10 @@ my_chatbot/
 ├── vectorizer.pkl        # Saved NLP Vectorizer (Auto-generated)
 └── database.db           # Chat History Storage (Auto-generated)
 
-⚙️ Installation & Setup
+---
+
+## ⚙️ Installation & Setup
+
 1. Clone or Download the Repository
 Navigate to the project folder in your terminal.
 
