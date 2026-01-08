@@ -1,0 +1,8 @@
+streamlit
+nltk
+scikit-learn
+pandas
+openpyxl
+fpdf
+wikipedia
+deep-translator
