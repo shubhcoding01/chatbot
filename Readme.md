@@ -40,7 +40,7 @@ my_chatbot/
 
 ---
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
 1. Clone or Download the Repository
 Navigate to the project folder in your terminal.
