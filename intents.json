@@ -2,13 +2,33 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi","Hii", "Hello", "Hey", "Good morning", "Namaste"],
-      "responses": ["Hello! Ask me anything.", "Hi there! I can search Wikipedia for you.", "Greetings!"]
+      "patterns": ["Hi", "Hii", "Hello", "Hey", "Good morning", "Namaste", "Hola", "Greetings"],
+      "responses": ["Hello! I am ready to help.", "Hi there! I can answer FAQs or search Wikipedia.", "Greetings! Ask me anything."]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you", "Goodbye", "Exit"],
-      "responses": ["Goodbye!", "See you later."]
+      "patterns": ["Bye", "See you", "Goodbye", "Exit", "Quit", "End chat"],
+      "responses": ["Goodbye! Don't forget to download your chat history.", "See you later!", "Have a nice day!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who is your developer?", "Who made this?", "Author name"],
+      "responses": ["I was built by a Python Developer as part of an AI Assessment project."]
+    },
+    {
+      "tag": "tech_stack",
+      "patterns": ["What technologies are used?", "Tech stack?", "How are you built?", "Libraries used", "Is this AI?"],
+      "responses": ["I am built using Python. My frontend is Streamlit, and my brain uses Scikit-Learn (Random Forest) & NLTK for NLP processing."]
+    },
+    {
+      "tag": "features",
+      "patterns": ["What can you do?", "Features", "Help", "Capabilities", "What is your function?"],
+      "responses": ["I can classify intents using ML, search Wikipedia for real-time answers, translate languages, and save/export chat history to PDF or Excel."]
+    },
+    {
+      "tag": "mechanism",
+      "patterns": ["How do you work?", "Algorithm used", "Explain the logic"],
+      "responses": ["I use a 'Bag of Words' model to convert text into numbers, then a Random Forest Classifier predicts what you want. If I'm unsure, I use the Wikipedia API."]
     },
     {
       "tag": "search_query",
