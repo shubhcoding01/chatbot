@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hii", "Hello", "Hey", "Good morning", "Namaste"],
+      "responses": ["Hello! Ask me anything.", "Hi there! I can search Wikipedia for you.", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Exit"],
+      "responses": ["Goodbye!", "See you later."]
+    },
+    {
+      "tag": "search_query",
+      "patterns": [
+        "What is", "Who is", "Tell me about", "Explain", "Define", 
+        "History of", "How does", "Search for"
+      ],
+      "responses": ["SEARCH_WIKIPEDIA"] 
+    }
+  ]
+}
