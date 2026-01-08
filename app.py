@@ -8,6 +8,7 @@ from fpdf import FPDF
 from datetime import datetime
 import io
 import os
+import nltk
 
 # --- PAGE SETUP ---
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖")
